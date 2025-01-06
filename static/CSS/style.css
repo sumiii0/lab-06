@@ -1,0 +1,305 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.first{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+}
+.email{
+    color: aliceblue;
+    margin-left: 12%;
+    float: left;
+    margin-top: 10px;
+}
+.number{
+    color: aliceblue;
+    margin-left: 3%;
+    float: left;
+    margin-top: 10px;
+}
+.login{
+    color: yellow;
+    margin-right: 12%;
+    float: right;
+    margin-top: 10px;
+}
+.follow{
+    color: aliceblue;
+    margin-right:2%;
+    float: right;
+    margin-top: 10px;
+}
+.fb{
+    height: 23px;
+    width: 2%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 8px;
+    background-image: url(../images/fb.PNG);
+    background-size: 30px;
+background-repeat: no-repeat;
+border-radius: 50px;
+}
+.twitter{
+    height: 23px;
+    width: 2%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 8px;
+    background-image: url(../images/teitter.PNG);
+background-repeat: no-repeat;
+border-radius: 50px;
+background-size: 27px;
+}
+.insta{
+    height: 23px;
+    width: 2%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 8px;
+    background-image: url(../images/insta.PNG);
+background-repeat: no-repeat;
+border-radius: 50px;
+background-size: 28px;
+}
+.in{
+    height: 23px;
+    width: 2%;
+    margin-right: 2%;
+    float: right;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.second{
+
+    width: 100%;
+    height: 75px;
+
+}
+.logo{
+    margin-left: 8%;
+    float: left;
+    margin-top: 0.8%;
+    height: 29px;
+    width: 2.5%;
+    background-image: url(../images/Screenshot\ 2025-01-05\ 190559.PNG.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.edubin{
+ background-image: url(../images/d.PNG);
+ background-repeat: no-repeat;
+ background-size: 140px;
+    margin-top: 0.5%;
+    font-size: 30px;
+    margin-left: 1.1%;
+    float: left;
+    height: 38px;
+    width: 10%;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+margin-right: 8%;
+   
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+    text-align: right;
+    color: black;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(78, 75, 75);
+}
+.navbar li{
+float: right;
+
+}
+
+.pic{
+    background-image: url(../images/Screenshot\ 2025-01-05\ 190125.png);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.type{
+    font-size: 55px;
+    color: aliceblue;
+    margin-top: 5%;
+    float: left;
+    margin-left: 9%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.boost{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 1%;
+    float: left;
+    margin-left: 9%;
+}
+.read{
+    font-size: 10px;
+    color: black;
+    margin-top: 5%;
+    float: right;
+    margin-right: 1%;
+background: gray;
+height: 40px;
+width: 8%;
+font-weight: bold;
+transition: 1s;
+border-radius: 30px;
+
+}
+.read:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.get{
+    font-size: 10px;
+    color: black;
+    margin-top: 5%;
+    float: right;
+    margin-right: 74%;
+background: gray;
+height: 40px;
+width: 8%;
+font-weight: bold;
+transition: 1s;
+border-radius: 30px;
+}
+.get:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.best{
+    height: 200px;
+    width: 50%;
+    margin-top: 10.5%;
+    float: left;
+    margin-left: 23%;
+    background-color:  black;
+}
+.be{
+    color: white;
+    font-size: 30px;
+    margin-top: 7%;
+    float: left;
+    margin-left: 6%;
+}
+.lang{
+background-color: gray;
+height: 120px;
+width: 14%;
+float: right;
+margin-right: 7%;
+margin-top: 5.4%;
+border-radius: 9%;
+}
+.lang:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.business{
+    background-color:gray;
+    height: 120px;
+    width: 14%;
+float: right;
+margin-right: 4.5%;
+margin-top: 5.4%;
+border-radius: 9%;
+}
+.business:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.lit{
+    background-color: gray;
+    height: 120px;
+    width: 14%;
+float: right;
+margin-right: 5%;
+margin-top: 5.4%;
+border-radius: 9%;
+}
+.lit:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.langpic {
+    height: 80px;
+width: 80%;
+margin-left: 8.5%;
+margin-top: 4%;
+border-radius: 50px;
+background-image: url(../images/litr.PNG);
+background-repeat: no-repeat;
+background-size: 89px;
+}
+.buspic{
+    height: 80px;
+width: 80%;
+margin-left: 8.5%;
+margin-top: 4%;
+border-radius: 50px;
+background-image: url(../images/business.PNG);
+background-repeat: no-repeat;
+background-size: 86px;
+}
+.litpic{
+    height: 80px;
+width: 80%;
+margin-left: 8.5%;
+margin-top: 4%;
+border-radius: 50px;
+background-image: url(../images/language.PNG);
+background-repeat: no-repeat;
+background-size: 86px;
+}
+.la{
+height: 20px;
+width: 70%;
+margin-top: 8%;
+margin-left: 14%;
+float: left;
+font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.b{
+    height: 20px;
+    width: 70%;
+    margin-top: 8%;
+    margin-left: 14%;
+    float: left; 
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.li{
+    height: 20px;
+    width: 70%;
+    margin-top: 8%;
+    margin-left: 14%;
+    float: left; 
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+

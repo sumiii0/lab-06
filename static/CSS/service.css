@@ -1,0 +1,174 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.first{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+}
+.email{
+    color: aliceblue;
+    margin-left: 12%;
+    float: left;
+    margin-top: 10px;
+}
+.number{
+    color: aliceblue;
+    margin-left: 3%;
+    float: left;
+    margin-top: 10px;
+}
+.login{
+    color: yellow;
+    margin-right: 12%;
+    float: right;
+    margin-top: 10px;
+}
+.follow{
+    color: aliceblue;
+    margin-right:2%;
+    float: right;
+    margin-top: 10px;
+}
+.fb{
+    height: 23px;
+    width: 2%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 8px;
+    background-image: url(../images/fb.PNG);
+    background-size: 30px;
+background-repeat: no-repeat;
+border-radius: 50px;
+}
+.twitter{
+    height: 23px;
+    width: 2%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 8px;
+    background-image: url(../images/teitter.PNG);
+background-repeat: no-repeat;
+border-radius: 50px;
+background-size: 27px;
+}
+.insta{
+    height: 23px;
+    width: 2%;
+    margin-right: 1%;
+    float: right;
+    margin-top: 8px;
+    background-image: url(../images/insta.PNG);
+background-repeat: no-repeat;
+border-radius: 50px;
+background-size: 28px;
+}
+.in{
+    height: 23px;
+    width: 2%;
+    margin-right: 2%;
+    float: right;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.second{
+
+    width: 100%;
+    height: 75px;
+
+}
+.logo{
+    margin-left: 8%;
+    float: left;
+    margin-top: 0.8%;
+    height: 29px;
+    width: 2.5%;
+    background-image: url(../images/Screenshot\ 2025-01-05\ 190559.PNG.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.edubin{
+ background-image: url(../images/d.PNG);
+ background-repeat: no-repeat;
+ background-size: 140px;
+    margin-top: 0.5%;
+    font-size: 30px;
+    margin-left: 1.1%;
+    float: left;
+    height: 38px;
+    width: 10%;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+margin-right: 8%;
+   
+
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+    text-align: right;
+    color: black;
+
+}
+
+.navbar a:hover {
+    background-color: rgb(78, 75, 75);
+}
+.navbar li{
+float: right;
+
+}
+
+.pic{
+    background-image: url(../images/Screenshot\ 2025-01-05\ 190125.png);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.pic{
+    background-image: url(../images/image-barbell-gym-concept-sport-healthy-lifestyle_167862-91.avif);
+    height: 780px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+section {
+    margin-top: 5%;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #004d99;
+}
+
+footer {
+    background-color: gray;
+    color: rgb(22, 19, 19);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+main {
+    background-image: url('../images/Screenshot\ 2025-01-05\ 190125.png');
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;}
+    

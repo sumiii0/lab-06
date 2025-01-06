@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(../static/images/Screenshot\ 2025-01-05\ 192820.jpg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
+            transition: transform 0.3s ease;
+        }
+
+        .form-container:hover {
+            transform: scale(1.05);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+            transform: scale(1.05);
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .form-group input[type="submit"]:active {
+            background-color: #388e3c;
+        }
+
+    </style>
+</head>
+<body style="background: url(../static/images/Screenshot\ 2025-01-05\ 192820.jpg); background-repeat: no-repeat; background-size: 100% 780px;" >
+
+    <div class="form-container">
+        <h2>LOGIN</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="form-group">
+                <button style="margin-left: 90px;font-size: 18px; font-weight: bold; width: 200px;padding: 5px;"><a href="index.html" style="text-decoration: none; color: #000;">Login</a></button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
