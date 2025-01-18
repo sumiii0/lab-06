@@ -1,4 +1,5 @@
-Purpose of a Gym Website:
+GYM MANAGEMENT SYSTEM
+
 A gym website serves as an online platform to provide information about the gym, its services, membership plans, facilities, and contact details. It helps attract potential members, retain existing ones, and streamline operations like class scheduling and payments.
 
 Common Features and Instructions:
